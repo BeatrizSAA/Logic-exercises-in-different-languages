@@ -1,3 +1,5 @@
+# Note: the codes and images have not yet been translated into english, but will be soon.
+
 #variaveis globais
 lista_produtos = []
 codigoProduto = 0
