@@ -1,3 +1,5 @@
+# Note: the codes and images have not yet been translated into english, but will be soon.
+
 #cabeçalho da empresa
 print("Bem vindo a companhia de logistica de Beatriz Silva Antunes")
 print("Trabalhamos com um sistema que calcula um valor personalizado de acordo com as especificações de sua entrega")
