@@ -1,4 +1,4 @@
-* Note: the codes and images have not yet been translated into english, but will be soon.
+# Note: the codes and images have not yet been translated into english, but will be soon.
 
 print("Bem vindo ao bea's lanche - lanchonete de Beatriz Silva Antunes")
 print("******************CARDAPIO*****************")
