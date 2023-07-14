@@ -1,6 +1,6 @@
 package ProjetoCofre;
 
-public abstract class Moeda {
+public abstract class Moeda { //classe mãe dos tipos de moedas
 
     double valor;
 

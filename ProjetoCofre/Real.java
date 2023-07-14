@@ -16,7 +16,7 @@ public class Real extends Moeda {
        return  this.valor;
     }
 
-    @Override
+    @Override //para solucionar o problema na exclusão de moedas
     public boolean equals (Object objeto){
         if (this.getClass() != objeto.getClass()){
             return false;

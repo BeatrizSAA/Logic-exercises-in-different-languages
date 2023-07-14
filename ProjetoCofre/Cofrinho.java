@@ -2,7 +2,7 @@ package ProjetoCofre;
 
 import java.util.ArrayList;
 
-public class Cofrinho {
+public class Cofrinho { //lista central de todos os metodos do cofre
 
     private ArrayList <Moeda> listadeMoedas;
 

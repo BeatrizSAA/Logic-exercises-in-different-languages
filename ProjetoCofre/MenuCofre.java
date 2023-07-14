@@ -12,7 +12,7 @@ import java.util.Scanner;
         cofrinho = new Cofrinho();
     }
 
-    public void opcoesDoCofre(){
+    public void opcoesDoCofre(){ 
 
         System.out.println("1. Adicionar moeda");
         System.out.println("2. Remover moeda");
@@ -24,19 +24,19 @@ import java.util.Scanner;
 
         System.out.println("Voce Selecionou a opção " + opcaoSelecionada);
 
-        switch (opcaoSelecionada){
+        switch (opcaoSelecionada){ //caso designado para cada opção escolhida
             case "0":
                 System.out.println("Encerrando sistema...");
                 break;
 
             case "1":
-                opcoesDeAdicao();
+                opcoesDeAdicao(); //se encontra ao final da pagina
                 opcoesDoCofre();
                 break;
 
                 
             case "2":
-                opcoesDeRemocao();
+                opcoesDeRemocao(); //se encontra ao final da pagina
                 opcoesDoCofre();
                 break;
 
@@ -74,7 +74,7 @@ import java.util.Scanner;
                 System.out.println("Digite o valor: ");
 
                 String quantidadeMoeda = Teclado.next();
-                quantidadeMoeda = quantidadeMoeda.replace(",", ".");
+                quantidadeMoeda = quantidadeMoeda.replace(",", "."); //para evitar problemas de compatibilidade
                 double quantidadeMoedaNovo = Double.valueOf(quantidadeMoeda);
                 System.out.println("O valor depoistado foi: " + quantidadeMoedaNovo);
                 

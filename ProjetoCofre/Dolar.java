@@ -17,7 +17,7 @@ public class Dolar extends Moeda {
     public double converter() {
        return  this.valor *4.8;
     }
-    @Override
+    @Override //para solucionar o problema na exclusão de moedas
     public boolean equals (Object objeto){
         if (this.getClass() != objeto.getClass()){
             return false;
